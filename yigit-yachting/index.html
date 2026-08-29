@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yiğit Ozan Yılmazer Yachting | Lüks Tekne Kiralama</title>
+<meta name="description" content="Yiğit Ozan Yılmazer Yachting ile kişiye özel lüks yat turları, saatlik ve günlük tekne kiralama hizmetleri.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<!-- ===== HEADER / NAVIGATION ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-icon"><i class="fa-solid fa-anchor"></i></span>
+      <span class="logo-text">Yiğit Ozan Yılmazer</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#hero" class="nav-link">Ana Sayfa</a></li>
+        <li><a href="#galeri" class="nav-link">Galeri</a></li>
+        <li><a href="#fiyatlandirma" class="nav-link">Fiyatlandırma</a></li>
+        <li><a href="#ozellikler" class="nav-link">Özellikler</a></li>
+        <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+      </ul>
+      <a href="#iletisim" class="btn btn-nav-cta">Rezerve Et</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Menüyü Aç/Kapat" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1920&q=80" alt="Denizde lüks yat" loading="eager">
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="container hero-content">
+    <p class="hero-kicker"><i class="fa-solid fa-star"></i> Ayrıcalıklı Deniz Deneyimi</p>
+    <h1 class="hero-title">Yiğit Ozan Yılmazer ile<br><span class="text-gold">Lüks Yat</span> Deneyimi</h1>
+    <p class="hero-subtitle">Kişiye özel hazırlanan turlar, üst düzey konfor ve unutulmaz deniz seferleriyle
+      hayalinizdeki günü gerçeğe dönüştürüyoruz. Profesyonel kaptan eşliğinde, tamamen size özel bir yolculuk.</p>
+
+    <div class="hero-actions">
+      <a href="#fiyatlandirma" class="btn btn-primary" data-scroll>
+        <i class="fa-solid fa-calendar-check"></i> Hemen Rezerve Et
+      </a>
+      <a href="#galeri" class="btn btn-outline" data-scroll>
+        <i class="fa-solid fa-images"></i> Galeriyi Gör
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Yıllık Tecrübe</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Mutlu Misafir</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num">5★</span>
+        <span class="stat-label">Misafir Memnuniyeti</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#galeri" class="scroll-indicator" data-scroll aria-label="Aşağı kaydır">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery" id="galeri">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Filo &amp; Detaylar</p>
+      <h2 class="section-title">Teknemizi Yakından Keşfedin</h2>
+      <p class="section-desc">Güvertesinden VIP kamarasına kadar her detayı özenle tasarlanmış, konfor ve şıklığı bir arada sunan filomuzu inceleyin.</p>
+    </div>
+
+    <div class="gallery-tabs" role="tablist">
+      <button class="gallery-tab active" data-filter="all" role="tab" aria-selected="true">Tümü</button>
+      <button class="gallery-tab" data-filter="dis" role="tab" aria-selected="false">Dış Mekan</button>
+      <button class="gallery-tab" data-filter="ic" role="tab" aria-selected="false">İç Mekan</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Dış Mekan -->
+      <figure class="gallery-item" data-category="dis">
+        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Yat güvertesi" loading="lazy">
+        <figcaption><span>Ana Güverte</span><small>Dış Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="dis">
+        <img src="https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=800&q=80" alt="Güneşlenme alanı" loading="lazy">
+        <figcaption><span>Güneşlenme Alanı</span><small>Dış Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="dis">
+        <img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=800&q=80" alt="Flybridge alanı" loading="lazy">
+        <figcaption><span>Flybridge</span><small>Dış Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="dis">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80" alt="Yatın dış görünümü açık denizde" loading="lazy">
+        <figcaption><span>Açık Deniz Seyri</span><small>Dış Mekan</small></figcaption>
+      </figure>
+
+      <!-- İç Mekan -->
+      <figure class="gallery-item" data-category="ic">
+        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80" alt="VIP kamara" loading="lazy">
+        <figcaption><span>VIP Kamara</span><small>İç Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="ic">
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80" alt="Salon" loading="lazy">
+        <figcaption><span>Ana Salon</span><small>İç Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="ic">
+        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80" alt="Mutfak" loading="lazy">
+        <figcaption><span>Mutfak</span><small>İç Mekan</small></figcaption>
+      </figure>
+      <figure class="gallery-item" data-category="ic">
+        <img src="https://images.unsplash.com/photo-1620332372374-0e11bb2b04ba?auto=format&fit=crop&w=800&q=80" alt="Banyo" loading="lazy">
+        <figcaption><span>Banyo</span><small>İç Mekan</small></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="pricing" id="fiyatlandirma">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-kicker">Şeffaf Fiyatlandırma</p>
+      <h2 class="section-title">Kiralama Paketleri</h2>
+      <p class="section-desc">İhtiyacınıza en uygun paketi seçin. Tüm paketlerimiz kaptan, yakıt ve temel ikramları içerir.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Saatlik -->
+      <div class="price-card">
+        <div class="price-card-head">
+          <i class="fa-regular fa-clock"></i>
+          <h3>Saatlik Kiralama</h3>
+          <p class="price-note">Minimum 2 Saat</p>
+        </div>
+        <div class="price-amount"><span class="currency">₺</span><span class="amount">20.000</span><span class="per">/ 2 saat</span></div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Profesyonel Kaptan</li>
+          <li><i class="fa-solid fa-check"></i> Yakıt Dahil</li>
+          <li><i class="fa-solid fa-check"></i> Temel İkramlar</li>
+          <li><i class="fa-solid fa-check"></i> Ses Sistemi Kullanımı</li>
+        </ul>
+        <a href="#iletisim" class="btn btn-outline btn-block" data-scroll>Teklif Al</a>
+      </div>
+
+      <!-- Yarım Gün - Featured -->
+      <div class="price-card featured">
+        <span class="price-badge">En Popüler</span>
+        <div class="price-card-head">
+          <i class="fa-solid fa-sun"></i>
+          <h3>Yarım Gün Paketi</h3>
+          <p class="price-note">4 Saat &middot; İndirimli Paket</p>
+        </div>
+        <div class="price-amount"><span class="currency">₺</span><span class="amount">40.000</span><span class="per">/ paket</span></div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Profesyonel Kaptan</li>
+          <li><i class="fa-solid fa-check"></i> Yakıt Dahil</li>
+          <li><i class="fa-solid fa-check"></i> Zengin İkram Menüsü</li>
+          <li><i class="fa-solid fa-check"></i> Premium Ses Sistemi</li>
+          <li><i class="fa-solid fa-check"></i> Karşılama Kokteyli</li>
+        </ul>
+        <a href="#iletisim" class="btn btn-primary btn-block" data-scroll>Teklif Al</a>
+      </div>
+
+      <!-- Tam Gün VIP -->
+      <div class="price-card">
+        <div class="price-card-head">
+          <i class="fa-solid fa-crown"></i>
+          <h3>Tam Gün VIP Paket</h3>
+          <p class="price-note">8 Saat &middot; Gün Boyu Kullanım</p>
+        </div>
+        <div class="price-amount"><span class="currency">₺</span><span class="amount">75.000</span><span class="per">/ paket</span></div>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Profesyonel Kaptan &amp; Mürettebat</li>
+          <li><i class="fa-solid fa-check"></i> Yakıt Dahil</li>
+          <li><i class="fa-solid fa-check"></i> Özel İkram &amp; Şampanya</li>
+          <li><i class="fa-solid fa-check"></i> Premium Ses Sistemi</li>
+          <li><i class="fa-solid fa-check"></i> Su Sporları Ekipmanları</li>
+        </ul>
+        <a href="#iletisim" class="btn btn-outline btn-block" data-scroll>Teklif Al</a>
+      </div>
+    </div>
+    <p class="pricing-footnote"><i class="fa-solid fa-circle-info"></i> Fiyatlar sezona, tekne tipine ve rota seçimine göre değişebilir. Kesin fiyat teklifi için bizimle iletişime geçin.</p>
+  </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section class="features" id="ozellikler">
+  <div class="container">
+    <div class="section-header light">
+      <p class="section-kicker">Donanım &amp; Konfor</p>
+      <h2 class="section-title">Tekne Özellikleri</h2>
+      <p class="section-desc">Konforlu ve güvenli bir deniz deneyimi için ihtiyacınız olan her şey teknemizde mevcut.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+        <h3>12 Kişi Kapasite</h3>
+        <p>Aileniz, arkadaşlarınız veya iş toplantılarınız için ideal kapasite.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-ruler-horizontal"></i></div>
+        <h3>18 Metre Boy</h3>
+        <p>Geniş güverte ve konforlu iç mekanlarla ferah bir deneyim.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-wifi"></i></div>
+        <h3>Wi-Fi Erişimi</h3>
+        <p>Açık denizde bile kesintisiz internet bağlantısı.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-music"></i></div>
+        <h3>Premium Ses Sistemi</h3>
+        <p>Yüksek kaliteli hoparlörlerle dilediğiniz müzik eşliğinde keyifli anlar.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-kitchen-set"></i></div>
+        <h3>Donanımlı Mutfak</h3>
+        <p>İkramlarınızı hazırlayabileceğiniz tam donanımlı mutfak alanı.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-umbrella-beach"></i></div>
+        <h3>Güneşlenme Yatakları</h3>
+        <p>Geniş güverte üzerinde konforlu güneşlenme alanları.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT / WHATSAPP ===== -->
+<section class="contact" id="iletisim">
+  <div class="container">
+    <div class="contact-panel">
+      <div class="contact-info">
+        <p class="section-kicker">Hemen İletişime Geçin</p>
+        <h2 class="section-title">Rezervasyon İçin<br>Bize Ulaşın</h2>
+        <p class="section-desc">Sorularınız veya rezervasyon talepleriniz için WhatsApp üzerinden anında bize
+          ulaşabilir ya da doğrudan arayabilirsiniz.</p>
+
+        <div class="contact-buttons">
+          <!-- WhatsApp linki: numarayı kendi numaranızla değiştirin -->
+          <a href="https://wa.me/905XXXXXXXXX?text=Merhaba%2C%20tekne%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+             class="btn btn-whatsapp" id="whatsappBtn" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp ile İletişime Geç
+          </a>
+          <!-- Arama linki: numarayı kendi numaranızla değiştirin -->
+          <a href="tel:+905XXXXXXXXX" class="btn btn-call">
+            <i class="fa-solid fa-phone"></i> Hemen Ara
+          </a>
+        </div>
+
+        <ul class="contact-meta">
+          <li><i class="fa-solid fa-location-dot"></i> Marina, İstanbul / Türkiye</li>
+          <li><i class="fa-regular fa-clock"></i> Her gün 08:00 - 22:00</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>Hızlı İletişim Formu</h3>
+
+        <div class="form-group">
+          <label for="name">Ad Soyad</label>
+          <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" placeholder="05XX XXX XX XX" required>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Tarih</label>
+          <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Mesajınız</label>
+          <textarea id="message" name="message" rows="3" placeholder="Kiralama talebiniz hakkında kısaca bilgi verin..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Üzerinden Gönder
+        </button>
+        <p class="form-hint">Form gönderildiğinde bilgileriniz WhatsApp üzerinden tarafımıza iletilir.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-icon"><i class="fa-solid fa-anchor"></i></span>
+      <span class="logo-text">Yiğit Ozan Yılmazer</span>
+    </a>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://wa.me/905XXXXXXXXX" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <p class="footer-copy">© 2026 Yiğit Ozan Yılmazer. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Yukarı çık">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
